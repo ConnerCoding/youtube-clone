@@ -1,0 +1,37 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    margin-top: 10px;
+}
+
+.video-info {
+    margin-left: 10px;
+}
+
+.channel-picture > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.video-picture > img {
+    width: 100%;
+}
+
+.video-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.channel-name, .video-stats {
+    font-size: 12px;
+    color: #606060;
+}
